@@ -6,6 +6,8 @@ IGNORE_FILES = {
     "build.py",
     "README.md",
     "LICENSE",
+    "DomeOS.zip",
+    "DomeOS.sb3"
 }
 
 # Cartelle da ignorare
