@@ -1,52 +1,59 @@
-# Fare una pull request
+# Fare una Pull Request
 
-Benvenuto Programmatore!
-Qui scoprirai come fare una pull request!
+Benvenuto, Programmatore!
 
----
-
-## Requisiti
-
-1. Un sistema operativo abbastanza recente
-2. Scratch installato
-3. Git installato
-4. Python 3 Installato
-5. Spazio su disco sufficiente
-
-Questi requisiti permettono di poter fare una pull request.
+In questa guida scoprirai come contribuire a **DomeOS** creando una Pull Request.
 
 ---
 
-## Pensare alla funzionalità
+# Requisiti
 
-Dobbiamo pensare alla funzionalità che vogliamo aggiungere. In questo esempio, ci immagineremo l'issue #99999.
+Prima di iniziare, assicurati di avere:
 
->**Issue #99999:** \
->Vorrei introdurre una variabile `acceso` che è 1 se si sta usando DomeOS.
+1. Un sistema operativo abbastanza recente.
+2. Scratch installato.
+3. Git installato.
+4. Python 3 installato.
+5. Spazio libero su disco sufficiente.
+
+Con questi requisiti sei pronto per contribuire al progetto.
 
 ---
 
-## Compilare DomeOS
+# Pensare alla funzionalità
 
-Ora che abbiamo chiara la funzionalità, dobbiamo clonare il repository del DOSP. Nel terminale digitiamo:
+Prima di modificare il progetto, è importante sapere cosa vuoi aggiungere o correggere.
+
+In questa guida useremo come esempio la seguente issue:
+
+> **Issue #99999**  
+> Vorrei introdurre una variabile `acceso` che vale `1` quando DomeOS è acceso.
+
+---
+
+# Compilare DomeOS
+
+Per prima cosa clona il repository di DOSP:
 
 ```bash
 git clone https://github.com/scratchdomeos/dosp.git
 ```
 
-Ora compileremo DomeOS. Nel terminale digitamo:
+Entra nella cartella del progetto ed esegui la build.
+
+Su Linux e macOS:
 
 ```bash
 python3 build.py
 ```
 
-o su Windows:
+Su Windows:
 
 ```bash
 python build.py
 ```
 
-Dovrebbe apparire qualcosa del genere:
+Se tutto è andato a buon fine vedrai un output simile a questo:
 
 ```text
 Building... project.json
@@ -57,57 +64,72 @@ Build completata! Creato: DomeOS.sb3
 
 ---
 
-## Fare la modifica
+# Fare la modifica
 
-Ora apri il file `DomeOS.sb3` in Scratch.
+Apri `DomeOS.sb3` con Scratch.
 
-Nell'editor, clicca nella sezione "Variabili" e crea una nuova variabile chiamata `acceso`:
+Vai nella categoria **Variables** e crea una nuova variabile chiamata `acceso`.
 
 <img width="2772" height="2672" alt="Immagine 1" src="https://github.com/user-attachments/assets/fbfff968-0bac-481f-8b5e-ffe6755d574c" />
 
- adesso vai nello sfondo e aggiungi questo script:
+Successivamente apri lo **Stage** e aggiungi questo script:
 
- ```text
-[Quando la bandiera verde è stata cliccata]
-                    |
-    [Imposta la variabile acceso a 1]
+```text
+[when green flag clicked]
+          │
+[set acceso to 1]
 ```
 
-Se preferisci un'immagine:
-
+Se preferisci, puoi seguire questa immagine:
 
 <img width="1024" height="832" alt="Immagine 2" src="https://github.com/user-attachments/assets/e6776846-b4d0-45a6-85e4-508b07c0005e" />
 
 ---
 
-## Risolvere i problemi
+# Risolvere i problemi
 
-Il nostro script ha un bug: la variabile `acceso` rimane 1 anche quando si spegne il sistema via start di DomeOS. Quindi aggiungete questo script:
+Il nostro script presenta un piccolo bug: la variabile `acceso` rimane uguale a `1` anche quando il sistema viene spento dal menu Start.
+
+Per risolvere il problema aggiungi questo script:
 
 ```text
-     [Quando spegni è stato ricevuto]
-                    |
-     [Imposta la variabile acceso a 0]
+[when I receive spento]
+          │
+[set acceso to 0]
 ```
 
-Poi abbiamo un'altro bug: la variabile `acceso` si vede nel visualizzatore. Andate nella sezione variabili e deselezionate `acceso`.
+Infine, nascondi la variabile `acceso` deselezionandola nella categoria **Variables**, così non verrà mostrata durante l'utilizzo di DomeOS.
 
 ---
 
-## Proporre le modifiche
+# Proporre le modifiche
 
-Abbiamo fatto le nostre modifiche. Ora salvate il file chiamandolo `DomeOS_Issue99999 PRFILE.sb3` (in realtà come volete, basta che finisca con `PRFILE` così capisce il nostro team che è quello il file della PR).
+Ora salva il progetto.
 
-Ora andiamo alla pagina della Repository di DOSP [`scratchdomeos/dosp`](https://github.com/scratchdomeos/dosp) e cliccate `Fork`.
+Puoi chiamarlo come preferisci, ma il nome **deve terminare con `PRFILE`**, ad esempio:
 
-Ora sul vostro fork cliccate sul "+" e "upload files".
-Trascinate il file creato dove indicato (In questo caso, `DomeOS_Issue99999 PRFILE.sb3`) e cliccate su Commit Changes.
+```text
+DomeOS_Issue99999_PRFILE.sb3
+```
 
-Ora, cliccate sul tasto "Compare & Pull request" e seguite tutte le istruzioni a schermo, includendo titolo e descrizione per la vostra pull request.
+Questo permette al team di riconoscere facilmente il file della Pull Request.
+
+Successivamente visita il repository:
+
+https://github.com/scratchdomeos/dosp
+
+e clicca su **Fork**.
+
+Nel tuo fork premi **+ → Upload files**, trascina il file appena creato e conferma con **Commit changes**.
+
+Infine clicca su **Compare & Pull Request**, compila il titolo e la descrizione della Pull Request e inviala.
 
 ---
 
-## Fine
+# Fine
 
-Ora sai come fare una pull request.
+Complimenti! 🎉
 
+Hai imparato come creare una Pull Request per DomeOS.
+
+Grazie per il tuo contributo al progetto!
