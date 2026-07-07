@@ -6,8 +6,7 @@ Sarà una guida che userai spesso perché a differenza degli altri sistemi, per 
 
 ---
 
-##
-## Compilare DomeOS
+# Clona
 
 Per prima cosa clona il repository di DOSP:
 
