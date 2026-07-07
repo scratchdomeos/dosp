@@ -6,6 +6,19 @@ Sarà una guida che userai spesso perché a differenza degli altri sistemi, per 
 
 ---
 
+
+# Requisiti
+
+Prima di iniziare, assicurati di avere:
+
+1. Un sistema operativo abbastanza recente.
+2. Scratch installato.
+3. Git installato.
+4. Python 3 installato.
+5. Spazio libero su disco sufficiente.
+
+---
+
 # Clona
 
 Per prima cosa clona il repository di DOSP:
