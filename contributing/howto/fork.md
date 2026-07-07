@@ -2,44 +2,59 @@
 
 Benvenuto, Programmatore!
 
-In questa guida scoprirai come contribuire a **DomeOS** creando una Pull Request.
+In questa guida scoprirai come creare un **fork** del repository di **DomeOS** e prepararlo per le tue modifiche.
+
+---
+
+# Cos'è un fork?
+
+Un **fork** è una copia del repository originale presente sul tuo account GitHub.
+
+Ti permette di lavorare liberamente senza modificare direttamente il repository ufficiale di DomeOS.
 
 ---
 
 # Requisiti
 
-Prima di iniziare, assicurati di avere:
+Prima di iniziare assicurati di avere:
 
-1. Un sistema operativo abbastanza recente.
-2. Scratch installato.
-3. Git installato.
+1. Un account GitHub.
+2. Git installato.
+3. Scratch installato.
 4. Python 3 installato.
 5. Spazio libero su disco sufficiente.
 
-Con questi requisiti sei pronto per contribuire al progetto.
+---
+
+# Creare il fork
+
+Apri il repository ufficiale di DOSP:
+
+```text
+https://github.com/scratchdomeos/dosp
+```
+
+In alto a destra clicca sul pulsante **Fork**.
+
+GitHub creerà una copia del repository nel tuo account.
 
 ---
 
-# Pensare alla funzionalità
+# Clonare il fork
 
-Prima di modificare il progetto, è importante sapere cosa vuoi aggiungere o correggere.
+Una volta creato il fork, clonalo sul tuo computer:
 
-In questa guida useremo come esempio la seguente issue:
+```bash
+git clone https://github.com/TUO_USERNAME/dosp.git
+```
 
-> **Issue #99999**  
-> Vorrei introdurre una variabile `acceso` che vale `1` quando DomeOS è acceso.
+Sostituisci `TUO_USERNAME` con il tuo nome utente GitHub.
 
 ---
 
 # Compilare DomeOS
 
-Per prima cosa clona il repository di DOSP:
-
-```bash
-git clone https://github.com/scratchdomeos/dosp.git
-```
-
-Entra nella cartella del progetto ed esegui la build.
+Entra nella cartella del progetto.
 
 Su Linux e macOS:
 
@@ -53,7 +68,7 @@ Su Windows:
 python build.py
 ```
 
-Se tutto è andato a buon fine vedrai un output simile a questo:
+Se la build termina correttamente vedrai un output simile:
 
 ```text
 Building... project.json
@@ -64,63 +79,27 @@ Build completata! Creato: DomeOS.sb3
 
 ---
 
-# Fare la modifica
+# Fare le modifiche
 
-Apri `DomeOS.sb3` con Scratch.
+A questo punto puoi modificare `DomeOS.sb3` con Scratch seguendo la guida relativa alla funzionalità che vuoi implementare.
 
-Vai nella categoria **Variables** e crea una nuova variabile chiamata `acceso`.
+Quando hai finito salva il progetto.
 
-<img width="2772" height="2672" alt="Immagine 1" src="https://github.com/user-attachments/assets/fbfff968-0bac-481f-8b5e-ffe6755d574c" />
-
-Successivamente apri lo **Stage** e aggiungi questo script:
-
-```text
-[when green flag clicked]
-          │
-[set acceso to 1]
-```
-
-Se preferisci, puoi seguire questa immagine:
-
-<img width="1024" height="832" alt="Immagine 2" src="https://github.com/user-attachments/assets/e6776846-b4d0-45a6-85e4-508b07c0005e" />
-
----
-
-# Risolvere i problemi
-
-Il nostro script presenta un piccolo bug: la variabile `acceso` rimane uguale a `1` anche quando il sistema viene spento dal menu Start.
-
-Per risolvere il problema aggiungi questo script:
-
-```text
-[when I receive spento]
-          │
-[set acceso to 0]
-```
-
-Infine, nascondi la variabile `acceso` deselezionandola nella categoria **Variables**, così non verrà mostrata durante l'utilizzo di DomeOS.
-
----
-
-# Mettilo nel fork
-
-Ora salva il progetto.
-
-Puoi chiamarlo come preferisci, ma il nome **deve terminare con `FORKFILE`**, ad esempio:
+Il nome del file può essere qualsiasi, ma **deve terminare con `FORKFILE`**, ad esempio:
 
 ```text
 DomeOS_Issue99999_FORKFILE.sb3
 ```
 
-Questo permette al team di riconoscere facilmente il file della Pull Request.
+---
 
-Successivamente visita il repository:
+# Caricare il file
 
-https://github.com/scratchdomeos/dosp
+Apri il tuo fork su GitHub.
 
-e clicca su **Fork**.
+Premi **+ → Upload files**, trascina il file `.sb3` e conferma con **Commit changes**.
 
-Nel tuo fork premi **+ → Upload files**, trascina il file appena creato e conferma con **Commit changes**.
+Il file sarà ora disponibile nel tuo fork.
 
 ---
 
@@ -128,6 +107,6 @@ Nel tuo fork premi **+ → Upload files**, trascina il file appena creato e conf
 
 Complimenti! 🎉
 
-Hai imparato come creare un Fork per DomeOS.
+Hai creato il tuo fork di DomeOS e hai imparato come caricare le tue modifiche.
 
-Grazie per il tuo contributo al progetto!
+Ora puoi continuare con la guida **Come fare una Pull Request** per proporre le modifiche al repository ufficiale.
