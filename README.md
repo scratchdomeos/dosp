@@ -31,7 +31,7 @@ Se non hai Scratch installato, puoi scaricarlo dal [sito ufficiale di Scratch](h
 
 ---
 
-# Contribuire
+## Contribuire
 
 DomeOS è un progetto open source e chiunque può contribuire.
 
@@ -51,7 +51,7 @@ Ogni contributo è il benvenuto!
 
 ---
 
-# Compilazione
+## Compilazione
 
 DomeOS utilizza un sistema di compilazione per preparare il progetto all'utilizzo e alla modifica.
 
@@ -65,7 +65,7 @@ contributing/build.md
 
 ---
 
-# Download
+## Download
 
 Puoi scaricare l'ultima versione di DomeOS dal nostro sito ufficiale.
 
@@ -75,7 +75,7 @@ In alternativa puoi compilare direttamente il progetto seguendo la guida:
 
 ---
 
-# Licenza
+## Licenza
 
 DomeOS è un progetto open source.
 
