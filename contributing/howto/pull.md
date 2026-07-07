@@ -51,4 +51,16 @@ Dovrebbe apparire qualcosa del genere:
 ```text
 Building... project.json
 --snip--
+
+Build completata! Creato: DomeOS.sb3
 ```
+
+---
+
+## Fare la modifica
+
+Ora apri il file `DomeOS.sb3` in Scratch.
+
+Nell'editor, clicca nella sezione "Variabili" e crea una nuova variabile chiamata `acceso`:
+
+<img width="2772" height="2672" alt="Immagine 1" src="https://github.com/user-attachments/assets/fbfff968-0bac-481f-8b5e-ffe6755d574c" />
