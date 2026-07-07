@@ -7,7 +7,7 @@ IGNORE_FILES = {
     "README.md",
     "LICENSE",
     "DomeOS.zip",
-    "DomeOS.sb3"
+    "DomeOS.sb3",
 }
 
 # Cartelle da ignorare
