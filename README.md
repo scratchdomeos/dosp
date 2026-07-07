@@ -31,3 +31,9 @@ Se vuoi contribuire, puoi leggere i file nella cartella `contributing`, in cui t
 Se cloni la Repository, allora dovrai compilare DomeOS per poterlo usare e modificare.
 
 Per leggere come compilare, vai a `contributing/build.md`
+
+---
+
+## Scarica DomeOS
+
+Per scaricare DomeOS, vai al nostro sito ufficiale o [compilalo](#compilare)
