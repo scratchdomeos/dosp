@@ -48,8 +48,8 @@ with zipfile.ZipFile(ZIP_NAME, "w", zipfile.ZIP_DEFLATED) as zipf:
 
         for file in files:
             full_path = os.path.join(root, file)
+            relative_path = os.path.relpath(full_path, ".")
             relative_path = relative_path.replace("\\", "/")
-
             if should_ignore(relative_path):
                 continue
 
