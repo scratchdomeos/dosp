@@ -1,45 +1,54 @@
 # Compilare DomeOS
 
-Benvenuto! Qui imparerai a compilare DomeOS.
+Benvenuto nella guida alla compilazione di **DomeOS**!
 
-Sarà una guida che userai spesso perché a differenza degli altri sistemi, per essere Modificato devi prima compilarlo.
+In questa guida imparerai come compilare il progetto DomeOS partendo dal codice sorgente.
+
+Questa procedura sarà utile ogni volta che vorrai modificare il sistema, perché DomeOS, a differenza di altri sistemi, richiede una compilazione per generare la versione utilizzabile.
 
 ---
 
-
 # Requisiti
 
-Prima di iniziare, assicurati di avere:
+Prima di iniziare, assicurati di avere installato:
 
 1. Un sistema operativo abbastanza recente.
 2. Scratch installato.
 3. Git installato.
 4. Python 3 installato.
-5. Spazio libero su disco sufficiente.
+5. Spazio libero sufficiente sul disco.
+
+Dopo aver verificato tutti i requisiti, puoi procedere con la compilazione.
 
 ---
 
-# Clona
+# Clona il repository
 
-Per prima cosa clona il repository di DOSP:
+Per prima cosa devi scaricare il codice sorgente di DomeOS.
+
+Clona il repository di DOSP:
 
 ```bash
 git clone https://github.com/scratchdomeos/dosp.git
 ```
 
-Entra nella cartella del progetto ed esegui la build.
+Entra nella cartella del progetto:
+
+```bash
+cd dosp
+```
 
 ---
 
-# Compila
+# Compila DomeOS
 
-Su Linux e macOS:
+## Linux e macOS
 
 ```bash
 python3 build.py
 ```
 
-Su Windows:
+## Windows
 
 ```bash
 python build.py
@@ -54,8 +63,16 @@ Building... project.json
 Build completata! Creato: DomeOS.sb3
 ```
 
+Il file generato sarà:
+
+```text
+DomeOS.sb3
+```
+
 ---
 
 # Fine
 
-Ora sai compilare
+Complimenti!
+
+Ora sai come compilare DomeOS partendo dal codice sorgente.
