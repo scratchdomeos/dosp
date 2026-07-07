@@ -2,7 +2,7 @@
 
 Benvenuto! Qui imparerai a compilare DomeOS.
 
-Sarà una g
+Sarà una guida che userai spesso perché a differenza degli altri sistemi, per essere Modificato devi prima compilarlo.
 
 ---
 
