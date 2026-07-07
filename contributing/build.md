@@ -29,6 +29,10 @@ git clone https://github.com/scratchdomeos/dosp.git
 
 Entra nella cartella del progetto ed esegui la build.
 
+---
+
+# Compila
+
 Su Linux e macOS:
 
 ```bash
@@ -49,3 +53,9 @@ Building... project.json
 
 Build completata! Creato: DomeOS.sb3
 ```
+
+---
+
+# Fine
+
+Ora sai compilare
