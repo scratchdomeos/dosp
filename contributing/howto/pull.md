@@ -64,3 +64,15 @@ Ora apri il file `DomeOS.sb3` in Scratch.
 Nell'editor, clicca nella sezione "Variabili" e crea una nuova variabile chiamata `acceso`:
 
 <img width="2772" height="2672" alt="Immagine 1" src="https://github.com/user-attachments/assets/fbfff968-0bac-481f-8b5e-ffe6755d574c" />
+
+ adesso vai nello sfondo e aggiungi questo script:
+
+ ```text
+[Quando la bandiera verde è stata cliccata]
+                    |
+    [Imposta la variabile acceso a 1]
+```
+
+Se preferisci un'immagine:
+
+
