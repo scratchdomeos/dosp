@@ -17,3 +17,17 @@ I requisiti sono:
 - Un sistema operativo (vero) recente
 
 Se non hai Scratch, puoi scaricarlo sul [Sito Ufficiale di Scratch](https://scratch.mit.edu/download).
+
+---
+
+## Contribuire
+
+Se vuoi contribuire, puoi leggere i file nella cartella `contributing`, in cui troverai contenuti utili.
+
+---
+
+## Compilare
+
+Se cloni la Repository, allora dovrai compilare DomeOS per poterlo usare e modificare.
+
+Per leggere come compilare, vai a `contributing/build.md`
