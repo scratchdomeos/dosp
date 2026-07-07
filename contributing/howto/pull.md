@@ -77,3 +77,18 @@ Se preferisci un'immagine:
 
 
 <img width="1024" height="832" alt="Immagine 2" src="https://github.com/user-attachments/assets/e6776846-b4d0-45a6-85e4-508b07c0005e" />
+
+---
+
+## Risolvere i problemi
+
+Il nostro script ha un bug: la variabile `acceso` rimane 1 anche quando si spegne il sistema via start di DomeOS. Quindi aggiungete questo script:
+
+```text
+     [Quando spegni è stato ricevuto]
+                    |
+     [Imposta la variabile acceso a 0]
+```
+
+o se preferisci un'immagine:
+
