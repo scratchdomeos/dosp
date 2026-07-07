@@ -90,5 +90,24 @@ Il nostro script ha un bug: la variabile `acceso` rimane 1 anche quando si spegn
      [Imposta la variabile acceso a 0]
 ```
 
-o se preferisci un'immagine:
+Poi abbiamo un'altro bug: la variabile `acceso` si vede nel visualizzatore. Andate nella sezione variabili e deselezionate `acceso`.
+
+---
+
+## Proporre le modifiche
+
+Abbiamo fatto le nostre modifiche. Ora salvate il file chiamandolo `DomeOS_Issue99999 PRFILE.sb3` (in realtà come volete, basta che finisca con `PRFILE` così capisce il nostro team che è quello il file della PR).
+
+Ora andiamo alla pagina della Repository di DOSP [`scratchdomeos/dosp`](https://github.com/scratchdomeos/dosp) e cliccate `Fork`.
+
+Ora sul vostro fork cliccate sul "+" e "upload files".
+Trascinate il file creato dove indicato (In questo caso, `DomeOS_Issue99999 PRFILE.sb3`) e cliccate su Commit Changes.
+
+Ora, cliccate sul tasto "Compare & Pull request" e seguite tutte le istruzioni a schermo, includendo titolo e descrizione per la vostra pull request.
+
+---
+
+## Fine
+
+Ora sai come fare una pull request.
 
