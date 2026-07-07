@@ -76,3 +76,4 @@ Nell'editor, clicca nella sezione "Variabili" e crea una nuova variabile chiamat
 Se preferisci un'immagine:
 
 
+<img width="1024" height="832" alt="Immagine 2" src="https://github.com/user-attachments/assets/e6776846-b4d0-45a6-85e4-508b07c0005e" />
