@@ -70,7 +70,7 @@ Apri `DomeOS.sb3` con Scratch.
 
 Vai nella categoria **Variables** e crea una nuova variabile chiamata `acceso`.
 
-<img width="2772" height="2672" alt="Immagine 1" src="https://github.com/user-attachments/assets/fbfff968-0bac-481f-8b5e-ffe6755d574c" />
+<img width="346" height="334" alt="Immagine 1" src="https://github.com/user-attachments/assets/fbfff968-0bac-481f-8b5e-ffe6755d574c" />
 
 Successivamente apri lo **Stage** e aggiungi questo script:
 
@@ -82,7 +82,7 @@ Successivamente apri lo **Stage** e aggiungi questo script:
 
 Se preferisci, puoi seguire questa immagine:
 
-<img width="1024" height="832" alt="Immagine 2" src="https://github.com/user-attachments/assets/e6776846-b4d0-45a6-85e4-508b07c0005e" />
+<img width="256" height="208" alt="Immagine 2" src="https://github.com/user-attachments/assets/e6776846-b4d0-45a6-85e4-508b07c0005e" />
 
 ---
 
